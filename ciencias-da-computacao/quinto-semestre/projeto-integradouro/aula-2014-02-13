@@ -1,0 +1,3 @@
+Fazer um programa que se conecta com outro (cliente e servidor) via socket
+	.Cálcular o delay (tempo que demora para fazer a conexão entre eles)
+	. Linguagem exigida (c ou c++)
