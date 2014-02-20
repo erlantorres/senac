@@ -1,0 +1,161 @@
+O que se pode fazer com um computador? Quais suas limitações?
+Porque?
+	. Complexidade: -> problemas -> dificuldade
+	. Computabilidade: -> problemas -> se é possível de ser resolvido
+	. Teoria de Autômatos: -> estudar modelos matemáticos de computação
+
+Noções matemáticas e Terminologias
+
+ - Conjuntos
+	{casa, 4, Jaqueline, -3.14}
+
+ . Conjunto - 
+	É um grupo de itens que pode ser tratado como uma unidade.
+	Membro ou elemento de um conjuntoé um dos itens do conjunto.
+	
+	casa PERTENCE {casa, 4, Jaqueline, -3.14}
+	carro NÃO PERTENCE {casa, 4, Jaqueline, -3.14}
+
+	Um elemento de um conjunto PERTENCE ao conjunto. Um elemento que não está no comjunto 
+	NÃO PERTENCE àquele conjunto.
+
+	Se A e B são dois conjuntos e todos os elementos de A estão em B então A CONTIDO B. Se
+	A e B forem iguais então A c= B.
+	
+	Se algum elemento de A não pertencer à B então A NÃO CONTIDO B.
+
+	Um conjunto especial é o conjunto que não possui elemento algum, este conjunto é chamado
+	de conjunto vazio ({}). 
+
+	Um conjunto pode ser descrito através das propriedades de seus elementos. Esta notação é 
+	útil principalmente para descrever conjuntos infinitos (que possuem número infinito de elementos).
+	{2, 4, 6, 8, ...}, {p / p é inteiro e divisível por 2 e p > 0}
+
+Operações entre conjuntos
+
+	U = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 17}
+	A = {1, 2, 3, 4, 5, 6}
+	B = {5, 6, 7, 12, 15}
+
+	União (U): 
+		A U B = {1, 2, 3, 4, 5, 6, 7, 12, 15} é o conjunto formado por todos elementos do conjunto A e B sem repetição.
+	
+	Intersecção (∩): 
+		A ∩ B = {5, 6} é o conjunto formado por todos os elementos que estão no conjunto A e que também estão no conjunto B.
+
+	Complemento ():
+		A (complemento) = {7, 8, 9, 10, 12, 15, 17} é o conjunto formado por todos os elementos do universo considerado e que não
+		estão no conjunto A.
+
+Sequências e Tuplas
+
+	Sequência:
+		(3, 12, 15) -> A ordem importa
+
+	Tupla é uma sequência finita com k elementos -> k-tupla
+		(3, 12, 15) -> 3-tupla
+		(10, 20) -> 2-tupla ou par ordenado
+	
+	Na tupla a ordem também importa
+
+
+Conjunto Potência
+	É o conjunto de todos os subconjuntos de um conjunto.
+	
+	Exemplo:
+		A = {1, 2, 3}; Potência(A) = {{}, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}}
+
+Produto Cartesiano
+	É o conjunto formado pelos pares ordenados do produto dos conjuntos
+
+	Exemplo:
+		A = {1, 2, 3}; B = {a, b}
+		A X B = {(1, a); (1, b); (2, a); (2, b); (3, a); (3, b)}
+
+Funções e Relações
+
+	A (domínio)                   B (imagem; contra-domínio)
+	                   f
+	.a ----------------------------> .b
+
+	f(a) = b ou f: A -> B
+
+
+
+	Se a entrada de uma função é o produto cartesiano de 2 ou mais conjuntos então a "entrada" da função é uma sequência
+
+	f: A1 X A2 X A3 X A4 X A5 -> B
+	f(a1, a2, a3, a4, a5) -> b
+
+
+
+	Um predicado ou propriedade
+		função onde Imagem = {V, F}
+
+
+		Se o domínio desta função for uma k-tupla então esta função se chama Relação.
+	
+		Relação binária => relação de equivalência.
+		
+		- Reflexiva: ∀ u -> u R u
+		- Sinética: ∀ u,v -> u R u então v R u
+		- Transitiva: ∀ u,v,w -> u R v e v R w então u R w
+
+
+Exercícios:
+	1)- Descreva os conjuntos abaixo por suas propriedades:
+		a)- {1, 3, 5, 7, ...}
+		b)- {..., -4, -2, 0, 2, 4, ...}
+	
+	2)- Descreva os elementos dos conjuntos:
+		a)- { n / n = 2m para algum m ∈ N e n = 3k para algum k ∈ N }
+		b)- { n / n é um inteiro e n = n + 1 }
+
+	3)- Escreva descrições formais para os conjuntos:
+		a)- Que tem os elementos 10, 100 e 1000
+		b)- Que possui a palavra aba
+		c)- Que contém os númeos naturais menores ou iguais a 5
+
+	4)- Se A contém x elementos e B contém y elementos, quantos elementos exitem em A X B?
+	5)- Seja X = { 1, 2, 3, 4, 5 } e Y = { 6, 7, 8, 9, 10 }
+		
+		
+	    __n_|_f(n)_                   _g(m, n)_|_6___7___8___9___10_
+	      1 | 6                            1   | 10  10  10  10  10
+	      2	| 7                            2   | 7   8   9   10  6
+	      3	| 6                            3   | 8   9   10  6   7
+	      4	| 7                            4   | 9   10  6   7   8
+	      5	| 6                            5   | 10  6   7   8   9
+
+
+
+
+	Determine:
+		a)- f(2)
+		b)- O domínio e a imagem de f
+		c)- g(2, 10)
+		d) g(3, f(4))
+
+
+	6)- Defina relações que sejam:
+		a)- Reflexiva e simétrica mas não transitiva
+		b)- Reflexiva e transitiva mas não simétrica
+		c)- Simétrica e transitiva mas não reflexiva
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
